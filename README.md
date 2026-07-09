@@ -57,47 +57,6 @@
 
 ---
 
-<h2 align="center">💻 Featured Projects</h2>
-
-### 🔒 Invisible Security — Hidden Code Detection Tool
-
-A VS Code extension developed to detect malicious code hidden using invisible Unicode characters in source files.
-
-- Detects hidden Unicode-based payloads
-- Uses parsing and pattern-matching techniques
-- Helps identify suspicious code missed by conventional scanners
-- Improves repository security against supply chain attacks
-
-🔗 **Repository:**  
-[Invisible Security](https://github.com/VAISHAKHBANGERA/invisible-security)
-
----
-
-### 🏦 Loan Approval System for Banks
-
-A machine learning-based loan approval system designed to assist banks in automating and improving loan decision-making.
-
-- Predicts loan eligibility using applicant data
-- Helps reduce manual effort in loan processing
-- Improves decision accuracy through data-driven analysis
-- Integrated with Microsoft 365 Copilot / Teams Agent framework
-
-🔗 **Repository:**  
-[Loan Approval System](https://github.com/dhanush229-lab/loan-appproval-project-for-banks)
-
----
-
-### 📱 Mobile Application Usage Survey
-
-A survey-based project focused on analyzing mobile app usage and screen time among students.
-
-- Designed a Google Form with targeted questions
-- Analyzed productive and non-productive app usage
-- Studied student screen-time behavior
-- Aimed to support better productivity and screen-time management
-
----
-
 <h2 align="center">🏆 Certifications</h2>
 
 ### ☁️ Microsoft Learn — Cloud Infrastructure Milestone 1
