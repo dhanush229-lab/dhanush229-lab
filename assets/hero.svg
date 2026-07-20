@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Dhanush Y Shetty — animated GitHub profile header</title>
+  <desc id="desc">A dark obsidian dashboard with crimson, acid-lime and iridescent accents, animated scanning lines and a rotating reactor monogram.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060910"/>
+      <stop offset="0.55" stop-color="#0a0f18"/>
+      <stop offset="1" stop-color="#080b12"/>
+    </linearGradient>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff3b1f"/>
+      <stop offset="0.28" stop-color="#ff7a18"/>
+      <stop offset="0.52" stop-color="#d7ff3f"/>
+      <stop offset="0.74" stop-color="#69e6ff"/>
+      <stop offset="1" stop-color="#c85cff"/>
+    </linearGradient>
+    <radialGradient id="core" cx="38%" cy="28%" r="78%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".9"/>
+      <stop offset=".15" stop-color="#69e6ff" stop-opacity=".85"/>
+      <stop offset=".38" stop-color="#c85cff" stop-opacity=".42"/>
+      <stop offset=".67" stop-color="#ff3b1f" stop-opacity=".23"/>
+      <stop offset="1" stop-color="#070b12" stop-opacity=".98"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#344050" stroke-opacity=".16" stroke-width="1"/>
+    </pattern>
+    <pattern id="micro" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".7" fill="#8190a4" fill-opacity=".12"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <clipPath id="screen"><rect x="24" y="24" width="1152" height="372" rx="24"/></clipPath>
+    <clipPath id="tickerClip"><rect x="742" y="53" width="370" height="34" rx="8"/></clipPath>
+  </defs>
+  <style>
+    .mono{font-family:Consolas,Monaco,monospace}.sans{font-family:Segoe UI,Arial,sans-serif}
+    .scan{animation:scan 6s linear infinite}.pulse{animation:pulse 2.4s ease-in-out infinite}
+    .blink{animation:blink 1.25s steps(1,end) infinite}.float{animation:float 4s ease-in-out infinite}
+    .dash{stroke-dasharray:12 16;animation:dash 7s linear infinite}.ticker{animation:ticker 9s linear infinite}
+    @keyframes scan{0%{transform:translateY(-80px)}100%{transform:translateY(500px)}}
+    @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+    @keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+    @keyframes dash{to{stroke-dashoffset:-224}}
+    @keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-245px)}}
+  </style>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="418" rx="27" fill="none" stroke="#334051"/>
+  <rect x="24" y="24" width="1152" height="372" rx="24" fill="url(#grid)"/>
+  <rect x="24" y="24" width="1152" height="372" rx="24" fill="url(#micro)" opacity=".55"/>
+
+  <g clip-path="url(#screen)" opacity=".25" class="scan">
+    <rect x="24" y="-50" width="1152" height="82" fill="url(#spectrum)" opacity=".12"/>
+    <rect x="24" y="30" width="1152" height="1" fill="#ffffff" opacity=".35"/>
+  </g>
+
+  <circle cx="106" cy="84" r="5" fill="#ff5dac" filter="url(#glow)" class="pulse"/>
+  <text x="128" y="91" class="mono" fill="#9fb0c4" font-size="13" letter-spacing="4">PROFILE // OBSIDIAN REACTOR</text>
+
+  <text x="72" y="178" class="sans" fill="#f4f7ff" font-size="62" font-weight="900" letter-spacing="2">DHANUSH</text>
+  <text x="72" y="244" class="sans" fill="#f4f7ff" font-size="62" font-weight="900" letter-spacing="2">Y SHETTY</text>
+  <rect x="72" y="266" width="535" height="3" rx="2" fill="url(#spectrum)"/>
+  <text x="72" y="304" class="sans" fill="#d7deea" font-size="21">Information Science &amp; Engineering Student</text>
+  <text x="72" y="337" class="mono" fill="#8fdfff" font-size="17">SOFTWARE DEVELOPMENT  •  MACHINE LEARNING  •  CLOUD</text>
+
+  <g transform="translate(72 358)">
+    <g><rect width="154" height="38" rx="19" fill="#121725" stroke="#8c5cff"/><circle cx="18" cy="19" r="5" fill="#8c5cff" class="pulse"/><text x="34" y="24" class="mono" fill="#f3f5ff" font-size="12" font-weight="700" letter-spacing="1.5">LEARNING</text></g>
+    <g transform="translate(170)"><rect width="154" height="38" rx="19" fill="#121725" stroke="#63ddff"/><circle cx="18" cy="19" r="5" fill="#63ddff" class="pulse"/><text x="34" y="24" class="mono" fill="#f3f5ff" font-size="12" font-weight="700" letter-spacing="1.5">BUILDING</text></g>
+    <g transform="translate(340)"><rect width="154" height="38" rx="19" fill="#121725" stroke="#d7ff3f"/><circle cx="18" cy="19" r="5" fill="#d7ff3f" class="pulse"/><text x="34" y="24" class="mono" fill="#f3f5ff" font-size="12" font-weight="700" letter-spacing="1.5">IMPROVING</text></g>
+  </g>
+
+  <g transform="translate(876 208)" class="float">
+    <circle r="123" fill="#ff3b1f" opacity=".08" filter="url(#soft)"/>
+    <circle r="108" fill="none" stroke="#253243" stroke-width="16"/>
+    <circle r="100" fill="url(#core)" stroke="#b8c4d6" stroke-width="2"/>
+    <circle r="118" fill="none" stroke="url(#spectrum)" stroke-width="4" stroke-linecap="round" stroke-dasharray="75 35 22 45 50 62" class="dash"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/>
+      <circle r="137" fill="none" stroke="#8c5cff" stroke-width="3" stroke-dasharray="36 150"/>
+      <circle r="147" fill="none" stroke="#ff7a18" stroke-width="3" stroke-dasharray="58 110" transform="rotate(95)"/>
+      <circle r="157" fill="none" stroke="#69e6ff" stroke-width="3" stroke-dasharray="42 130" transform="rotate(220)"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="12s" repeatCount="indefinite"/>
+      <circle cx="0" cy="-137" r="5" fill="#d7ff3f" filter="url(#glow)"/>
+      <circle cx="137" cy="0" r="4" fill="#ff5dac" filter="url(#glow)"/>
+      <circle cx="-96" cy="96" r="4" fill="#69e6ff" filter="url(#glow)"/>
+    </g>
+    <text x="0" y="25" text-anchor="middle" class="sans" fill="#f7f8ff" font-size="86" font-weight="900">D</text>
+    <text x="0" y="55" text-anchor="middle" class="mono" fill="#d7ff3f" font-size="12" letter-spacing="4">DEV CORE</text>
+  </g>
+
+  <g transform="translate(742 53)">
+    <rect width="370" height="34" rx="8" fill="#0c111b" stroke="#263344"/>
+    <g class="ticker" clip-path="url(#tickerClip)" transform="translate(-742 -53)">
+      <text x="760" y="75" class="mono" fill="#a8b6c8" font-size="12" letter-spacing="1.4">SYSTEM ONLINE  //  CURIOSITY: HIGH  //  BUILD MODE: ACTIVE  //  </text>
+      <text x="1352" y="75" class="mono" fill="#a8b6c8" font-size="12" letter-spacing="1.4">SYSTEM ONLINE  //  CURIOSITY: HIGH  //  BUILD MODE: ACTIVE  //  </text>
+    </g>
+    <rect x="352" y="10" width="7" height="14" fill="#d7ff3f" class="blink"/>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="t d">
+  <title id="t">Technology matrix</title><desc id="d">Programming, machine learning, development and tools grouped in an animated control panel.</desc>
+  <defs>
+    <pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="12" stroke="#313844" stroke-width="2" opacity=".18"/></pattern>
+    <linearGradient id="scan" x1="0" x2="1"><stop stop-color="#ff3b1f"/><stop offset=".5" stop-color="#d7ff3f"/><stop offset="1" stop-color="#69e6ff"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>.mono{font-family:Consolas,monospace}.chip{fill:#0d1016;stroke:#353b46;stroke-width:1.5}.hot{animation:h 3.5s ease-in-out infinite}.delay{animation-delay:1.1s}.delay2{animation-delay:2.2s}.scan{animation:s 6s linear infinite}@keyframes h{0%,100%{stroke:#353b46}50%{stroke:#d7ff3f}}@keyframes s{0%{transform:translateX(-400px)}100%{transform:translateX(1250px)}}</style>
+  <rect width="1200" height="610" fill="#080b10"/>
+  <rect x="18" y="18" width="1164" height="574" fill="#101217" stroke="#343a44" stroke-width="2"/>
+  <rect x="18" y="18" width="1164" height="574" fill="url(#hatch)"/>
+  <text x="60" y="66" class="mono" fill="#ff4a1f" font-size="18" font-weight="700" letter-spacing="4">TECHNOLOGIES / 03</text>
+  <text x="60" y="95" class="mono" fill="#8c99ad" font-size="10" letter-spacing="3">TOOLS I WORK WITH — GROUPED FOR CLARITY, NEVER RANKED</text>
+  <g opacity=".15" class="scan"><rect x="0" y="116" width="350" height="400" fill="url(#scan)"/></g>
+
+  <!-- Row 1 -->
+  <g transform="translate(60 128)"><rect width="1080" height="82" fill="#080a0f" stroke="#3a404a"/><rect width="166" height="82" fill="#ff4a1f"/><text x="22" y="31" class="mono" fill="#07090d" font-size="12" font-weight="700">01 /</text><text x="22" y="56" class="mono" fill="#07090d" font-size="14" font-weight="700" letter-spacing="2">PROGRAMMING</text>
+    <g transform="translate(190 22)"><rect class="chip hot" width="145" height="38"/><text x="72" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">PYTHON</text></g>
+    <g transform="translate(350 22)"><rect class="chip" width="120" height="38"/><text x="60" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">C</text></g>
+    <g transform="translate(485 22)"><rect class="chip" width="120" height="38"/><text x="60" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">C++</text></g>
+    <g transform="translate(620 22)"><rect class="chip" width="130" height="38"/><text x="65" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">JAVA</text></g>
+    <g transform="translate(765 22)"><rect width="180" height="38" fill="#d7ff3f"/><text x="90" y="24" text-anchor="middle" class="mono" fill="#07090d" font-size="12" font-weight="700">JAVASCRIPT</text></g>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(60 224)"><rect width="1080" height="112" fill="#080a0f" stroke="#3a404a"/><rect width="166" height="112" fill="#d7ff3f"/><text x="22" y="31" class="mono" fill="#07090d" font-size="12" font-weight="700">02 /</text><text x="22" y="57" class="mono" fill="#07090d" font-size="14" font-weight="700" letter-spacing="2">AI &amp; ML</text><text x="22" y="82" class="mono" fill="#263000" font-size="9" letter-spacing="2">LEARNING + USING</text>
+    <g transform="translate(190 16)"><rect class="chip hot delay" width="165" height="38"/><text x="82" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">MACHINE LEARNING</text></g>
+    <g transform="translate(370 16)"><rect class="chip" width="145" height="38"/><text x="72" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">COMPUTER VISION</text></g>
+    <g transform="translate(530 16)"><rect class="chip" width="100" height="38"/><text x="50" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">NLP</text></g>
+    <g transform="translate(645 16)"><rect width="145" height="38" fill="#ff4a1f"/><text x="72" y="24" text-anchor="middle" class="mono" fill="#07090d" font-size="12" font-weight="700">POSE DETECTION</text></g>
+    <g transform="translate(805 16)"><rect class="chip" width="140" height="38"/><text x="70" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">MODEL EVALUATION</text></g>
+    <g transform="translate(190 64)"><rect class="chip" width="120" height="32"/><text x="60" y="21" text-anchor="middle" class="mono" fill="#d7ff3f" font-size="11">SCIKIT-LEARN</text></g>
+    <g transform="translate(324 64)"><rect class="chip" width="120" height="32"/><text x="60" y="21" text-anchor="middle" class="mono" fill="#69e6ff" font-size="11">TENSORFLOW</text></g>
+    <g transform="translate(458 64)"><rect class="chip" width="105" height="32"/><text x="52" y="21" text-anchor="middle" class="mono" fill="#ff7a18" font-size="11">OPENCV</text></g>
+    <g transform="translate(577 64)"><rect class="chip" width="115" height="32"/><text x="57" y="21" text-anchor="middle" class="mono" fill="#c85cff" font-size="11">PANDAS</text></g>
+    <g transform="translate(706 64)"><rect class="chip" width="115" height="32"/><text x="57" y="21" text-anchor="middle" class="mono" fill="#ff5dac" font-size="11">NUMPY</text></g>
+  </g>
+
+  <!-- Row 3 -->
+  <g transform="translate(60 350)"><rect width="1080" height="82" fill="#080a0f" stroke="#3a404a"/><rect width="166" height="82" fill="#2a2c33"/><text x="22" y="31" class="mono" fill="#fff" font-size="12" font-weight="700">03 /</text><text x="22" y="56" class="mono" fill="#fff" font-size="14" font-weight="700" letter-spacing="2">DEVELOPMENT</text>
+    <g transform="translate(190 22)"><rect class="chip hot delay2" width="115" height="38"/><text x="57" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">HTML</text></g>
+    <g transform="translate(320 22)"><rect class="chip" width="115" height="38"/><text x="57" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">CSS</text></g>
+    <g transform="translate(450 22)"><rect class="chip" width="130" height="38"/><text x="65" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">REACT</text></g>
+    <g transform="translate(595 22)"><rect class="chip" width="165" height="38"/><text x="82" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">NODE / EXPRESS</text></g>
+    <g transform="translate(775 22)"><rect class="chip" width="170" height="38"/><text x="85" y="24" text-anchor="middle" class="mono" fill="#d7ff3f" font-size="12" font-weight="700">REST APIs</text></g>
+  </g>
+
+  <!-- Row 4 -->
+  <g transform="translate(60 446)"><rect width="1080" height="82" fill="#080a0f" stroke="#3a404a"/><rect width="166" height="82" fill="#f3eee2"/><text x="22" y="31" class="mono" fill="#07090d" font-size="12" font-weight="700">04 /</text><text x="22" y="56" class="mono" fill="#07090d" font-size="14" font-weight="700" letter-spacing="2">TOOLS</text>
+    <g transform="translate(190 22)"><rect class="chip" width="115" height="38"/><text x="57" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">GIT</text></g>
+    <g transform="translate(320 22)"><rect class="chip" width="125" height="38"/><text x="62" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">GITHUB</text></g>
+    <g transform="translate(460 22)"><rect class="chip hot" width="135" height="38"/><text x="67" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">VS CODE</text></g>
+    <g transform="translate(610 22)"><rect class="chip" width="135" height="38"/><text x="67" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">JUPYTER</text></g>
+    <g transform="translate(760 22)"><rect class="chip" width="115" height="38"/><text x="57" y="24" text-anchor="middle" class="mono" fill="#f2f4fa" font-size="12" font-weight="700">AZURE</text></g>
+    <g transform="translate(890 22)"><rect width="55" height="38" fill="#d7ff3f"/><text x="27" y="24" text-anchor="middle" class="mono" fill="#07090d" font-size="11" font-weight="700">CLI</text></g>
+  </g>
+
+  <g transform="translate(60 546)"><rect width="1080" height="34" fill="#ff4a1f"/><text x="18" y="22" class="mono" fill="#07090d" font-size="11" font-weight="700" letter-spacing="2">CURRENTLY LEARNING / SOFTWARE ENGINEERING • MACHINE LEARNING • CLOUD • DATABASES</text><rect x="870" y="5" width="195" height="24" fill="#0a0c11"/><circle cx="890" cy="17" r="5" fill="#d7ff3f" filter="url(#glow)"/><text x="906" y="21" class="mono" fill="#d7ff3f" font-size="10" font-weight="700">STATUS: IN PROGRESS</text></g>
+</svg>

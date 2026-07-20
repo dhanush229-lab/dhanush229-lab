@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="t d">
+  <title id="t">About Dhanush</title><desc id="d">An animated identity and system introduction panel.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#ff3b1f"/><stop offset=".48" stop-color="#ff7a18"/><stop offset="1" stop-color="#d7ff3f"/></linearGradient>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#738096" opacity=".2"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>.mono{font-family:Consolas,monospace}.sans{font-family:Segoe UI,Arial,sans-serif}.pulse{animation:p 2s ease-in-out infinite}.draw{stroke-dasharray:650;stroke-dashoffset:650;animation:d 5s ease-in-out infinite}@keyframes p{50%{opacity:.3}}@keyframes d{0%{stroke-dashoffset:650}45%,80%{stroke-dashoffset:0}100%{stroke-dashoffset:-650}}</style>
+  <rect width="1200" height="430" fill="#090c12"/>
+  <rect x="18" y="18" width="1164" height="394" fill="#0d1017" stroke="#343a45" stroke-width="2"/>
+  <rect x="18" y="18" width="1164" height="394" fill="url(#dots)"/>
+  <rect x="18" y="18" width="10" height="394" fill="#ff4a1f"/><rect x="1172" y="18" width="10" height="394" fill="#d7ff3f"/>
+  <text x="62" y="68" class="mono" fill="#ff4a1f" font-size="18" font-weight="700" letter-spacing="4">ABOUT / 02</text>
+  <path d="M190 62H1120" stroke="#313741" stroke-width="2" stroke-dasharray="10 10"/>
+
+  <g transform="translate(62 98)">
+    <rect width="310" height="270" fill="#080a0f" stroke="#3a414d"/>
+    <rect width="310" height="52" fill="#ff4a1f"/>
+    <text x="22" y="33" class="mono" fill="#07090d" font-size="15" font-weight="700" letter-spacing="3">IDENTITY CARD</text>
+    <text x="22" y="94" class="mono" fill="#7f8ca0" font-size="10" letter-spacing="2">NAME</text>
+    <text x="22" y="120" class="mono" fill="#f3f5fa" font-size="16" font-weight="700">DHANUSH Y SHETTY</text>
+    <line x1="22" y1="135" x2="288" y2="135" stroke="#2b313c"/>
+    <text x="22" y="167" class="mono" fill="#7f8ca0" font-size="10" letter-spacing="2">DEGREE</text>
+    <text x="22" y="193" class="mono" fill="#f3f5fa" font-size="14" font-weight="700">B.TECH — INFORMATION SCIENCE</text>
+    <line x1="22" y1="208" x2="288" y2="208" stroke="#2b313c"/>
+    <text x="22" y="240" class="mono" fill="#7f8ca0" font-size="10" letter-spacing="2">BASE</text>
+    <text x="22" y="264" class="mono" fill="#d7ff3f" font-size="14">NMAMIT • NITTE</text>
+  </g>
+
+  <g transform="translate(418 105)">
+    <text x="0" y="0" class="mono" fill="#d7ff3f" font-size="13" font-weight="700" letter-spacing="2">HELLO / SYSTEM INTRODUCTION</text>
+    <text x="0" y="55" class="sans" fill="#f2f5fb" font-size="29" font-weight="800">I build to learn, test to understand,</text>
+    <text x="0" y="92" class="sans" fill="#f2f5fb" font-size="29" font-weight="800">and improve by solving real problems.</text>
+    <text x="0" y="139" class="sans" fill="#9ca8ba" font-size="17">I’m an Information Science Engineering student interested in software</text>
+    <text x="0" y="166" class="sans" fill="#9ca8ba" font-size="17">development, machine learning, cloud computing and practical product building.</text>
+    <text x="0" y="201" class="sans" fill="#9ca8ba" font-size="17">Hackathons, debugging sessions and hands-on projects are my preferred classroom.</text>
+
+    <g transform="translate(0 235)">
+      <rect width="620" height="56" fill="#0a0d13" stroke="#354050"/>
+      <rect x="0" y="0" width="6" height="56" fill="url(#edge)"/>
+      <circle cx="28" cy="28" r="6" fill="#ff4a1f" filter="url(#glow)" class="pulse"/>
+      <text x="48" y="23" class="mono" fill="#ff7a18" font-size="12" font-weight="700">CURRENT OBJECTIVE</text>
+      <text x="48" y="43" class="mono" fill="#e4e9f1" font-size="13">TURNING IDEAS INTO CLEAN, USEFUL AND DEPLOYABLE SYSTEMS.</text>
+    </g>
+  </g>
+  <path d="M418 382 C560 335 730 410 1118 340" fill="none" stroke="url(#edge)" stroke-width="2" class="draw"/>
+</svg>

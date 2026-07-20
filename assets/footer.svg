@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-label="Animated profile footer">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#ff3b1f"/><stop offset=".45" stop-color="#d7ff3f"/><stop offset=".75" stop-color="#69e6ff"/><stop offset="1" stop-color="#c85cff"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <style>.mono{font-family:Consolas,monospace}.pulse{animation:p 2.2s ease-in-out infinite}.dash{stroke-dasharray:12 12;animation:d 5s linear infinite}@keyframes p{50%{opacity:.25}}@keyframes d{to{stroke-dashoffset:-120}}</style>
+  <rect width="1200" height="190" rx="20" fill="#080b11"/><rect x="1" y="1" width="1198" height="188" rx="19" fill="none" stroke="#343c48"/>
+  <path d="M60 52H1140" stroke="#3b424e" stroke-width="2" class="dash"/><circle cx="60" cy="52" r="7" fill="#ff4a1f" filter="url(#glow)"/><circle cx="1140" cy="52" r="7" fill="#d7ff3f" filter="url(#glow)"/>
+  <text x="600" y="104" text-anchor="middle" class="mono" fill="#f4f6fb" font-size="20" font-weight="700" letter-spacing="2">CODE IS NEVER FINISHED — IT BECOMES BETTER.</text>
+  <text x="600" y="136" text-anchor="middle" class="mono" fill="#8f9aad" font-size="12" letter-spacing="2">BUILT WITH PRACTICE • CURIOSITY • PERSISTENCE</text>
+  <rect x="320" y="158" width="560" height="3" rx="2" fill="url(#g)" class="pulse"/>
+</svg>
